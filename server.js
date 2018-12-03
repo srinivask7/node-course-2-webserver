@@ -60,4 +60,10 @@ res.render('about.hbs',{
     
 });
 });
+app.get('/projects',(req,res)=>{
+    res.render('projects.hbs',{
+        pageTitle:'Projects'
+    });
+});
+app
 app.listen(port);
